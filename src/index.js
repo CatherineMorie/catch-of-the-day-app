@@ -1,3 +1,5 @@
+import './css/style.css';
+
 import React from 'react';
 import StorePicker from './components/StorePicker';
 import { render } from 'react-dom';
