@@ -1,6 +1,6 @@
 import Header from './Header';
-import Inventory from './inventory';
-import Order from './order';
+import Inventory from './Inventory';
+import Order from './Order';
 import React from 'react';
 
 class App extends React.Component {
@@ -12,7 +12,9 @@ class App extends React.Component {
         </div>
         <div>
           <Inventory />
-          {/* <Order /> */}
+        </div>
+        <div>
+          <Order />
         </div>
       </div>
     );
